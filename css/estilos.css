@@ -4,17 +4,39 @@ body
     text-align: center;
     font-size:larger;
     font-family: Arial;
+    font-size: 16px;
+    margin: 10;
+    padding:50;
+}
+
+#cabecera{
+    background:#3b02c0;
+    box-shadow: 5px -13px 7px -4px #9e999e;
+    color:#ffffff;
+    font-weight: bold;
+    margin: 0px;
+    padding:0.5em;
+
+}
+#cabecera #tagline{
+    padding: 1em 0 0 0;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 #container
 {
-    width: 70%;
-    padding: 1em;
-    text-align: center;
-    border: 1px solid #098789;
+    width: 90%;
+    padding: 0.4em;
+    text-align: left;
+    border: 1px solid #0804cf;
     margin: 0 auto;
 
 }
 
 #container h1{
-    font-size: 200%;
+    font-size: 100%;
+}
+
+#post{
+    padding 1em;
 }
