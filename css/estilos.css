@@ -1,26 +1,42 @@
 body
 {
-    color: rgb(240, 86, 14);
+    color: rgb(7, 0, 32);
     text-align: left;
-    font-size:large;
-    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 10;
+    padding:50;
 }
 
 #cabecera{
-    background:#098654;
-    color: antiquewhite;
-    
+    background:#3b02c0;
+    box-shadow: 5px -13px 7px -4px #9e999e;
+    color:#ffffff;
+    font-weight: bold;
+    margin: 0px;
+    padding:0.5em;
+
+}
+#cabecera #tagline{
+    padding: 1em 0 0 0;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 #container
 {
-    width: 70%;
-    padding: 1em;
+    width: 90%;
+    padding: 0.4em;
     text-align: left;
-    border: 1px solid #098789;
+    border: 1px solid #0804cf;
     margin: 0 auto;
 
 }
 
 #container h1{
-    font-size: 200%;
+    font-size: 100%;
+}
+
+#post{
+    padding 1em;
 }
