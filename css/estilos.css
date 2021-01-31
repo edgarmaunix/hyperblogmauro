@@ -5,6 +5,12 @@ body
     font-size:large;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#cabecera{
+    background:#098654;
+    color: antiquewhite;
+    
+}
 #container
 {
     width: 70%;
