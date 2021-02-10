@@ -1,7 +1,7 @@
 body
 {
-    color:#000000;
-    text-align: center;
+    color:rgb(2, 2, 2);
+    text-align: left;
     font-size:larger;
     font-family: Arial;
     font-size: 16px;
@@ -10,9 +10,9 @@ body
 }
 
 #cabecera{
-    background:#3b02c0;
-    box-shadow: 5px -13px 7px -4px #9e999e;
-    color:#ffffff;
+    background:darkturquoise;
+    box-shadow: 5px -5px 7px -4px #9e999e;
+    color:#000000;
     font-weight: bold;
     margin: 0px;
     padding:0.5em;
@@ -23,20 +23,31 @@ body
     font-weight: normal;
     font-size: 0.8em;
 }
+
 #container
 {
-    width: 90%;
+    width: 70%;
     padding: 0.4em;
     text-align: left;
-    border: 1px solid #0804cf;
+    border: 1px solid darkturquoise;
     margin: 0 auto;
 
 }
 
-#container h1{
+#container h1
+{
     font-size: 100%;
 }
 
-#post{
+#post
+{
+    
     padding 1em;
+}
+
+#Footer
+{
+    padding: 1em;
+    background-color:darkturquoise;
+    text-align: center;
 }
