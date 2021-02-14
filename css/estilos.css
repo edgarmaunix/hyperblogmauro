@@ -29,7 +29,7 @@ body
     width: 70%;
     padding: 0.4em;
     text-align: left;
-    border: 1px solid darkturquoise;
+    border: 1px solid black;
     margin: 0 auto;
 
 }
@@ -48,6 +48,7 @@ body
 #Footer
 {
     padding: 1em;
-    background-color:darkturquoise;
-    text-align: center;
+    background-color:yellowgreen;
+    text-align: left;
+    
 }
